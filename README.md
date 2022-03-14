@@ -29,7 +29,7 @@ My Diary is an online journal where users pen down their thoughts and feelings.
 ```
 Heroku
 ```
-### Heroku 
+## Heroku 
 [Check it live]()
 
 
@@ -70,6 +70,6 @@ Feel free to check the [issues page](https://github.com/DeliceLydia/online-class
 Give a ⭐️ if you like this project!
 
 
-# License
+## License
 ​
 This project is [MIT](https://github.com/DeliceLydia/online-class-reservation-apis/blob/master/LICENSE) licensed.
