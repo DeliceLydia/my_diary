@@ -1,23 +1,19 @@
 # MyDairy
-My Diary is an online journal where users can pen down their thoughts and feelings.
-
+My Diary is an online journal where users pen down their thoughts and feelings.
 
 ## Features
-* HTML
-* CSS
+- User will be able to create a new account
+- User will be able to login 
+- User will be able to create an entry
+- User will be able to delete his/her entries
+- User will be able to edit an entry
 
-### Live Demo
-[myDiary/UI link]( )
-
----------------------------------------------------------------------
-
-### Built With
+## Built With
 
 - Ruby
 - Rails
 - JWT
 - Bcrypt
-
 
 ## API ENDPOINTS
 
@@ -29,13 +25,12 @@ My Diary is an online journal where users can pen down their thoughts and feelin
 | /api/v1/entries/:id | DELETE | deleting a specific entry |
 | /api/v1/entries/:id | PUT| Get the user to modify an entry  |
 
-
-### Deployment
+## Deployment
 ```
 Heroku
 ```
-### Heroku link Example
-[myDiary heroku link]()
+### Heroku 
+[Check it live]()
 
 
 ## Getting Started
