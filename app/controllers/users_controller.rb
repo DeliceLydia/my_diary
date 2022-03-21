@@ -2,7 +2,8 @@ class UsersController < ApplicationController
  
   def create
     user = User.create!(user_params)
-    
+    response = { message: Message.account_created }
+    json_response(response, :created)
   end
 
   private
