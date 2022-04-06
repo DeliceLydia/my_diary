@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'authentications/create'
   get 'users/index'
   get 'users/create'
   get 'users/new'
