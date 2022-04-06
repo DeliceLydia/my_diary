@@ -1,9 +1,10 @@
 class UsersController < ApplicationController
-  skip_before_action :verify_authenticity_token
+  skip_before_action :authorize_request, only: :create
  
   def create
     user = User.create!(user_params)
-    response = { message: Message.account_created }
+    token = AuthenticateUser.new(user.email, user.password).call
+    response = { message: Message.account_created, authToken: token }
     json_response(response, :created)
   end
 
