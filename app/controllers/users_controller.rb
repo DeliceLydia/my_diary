@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   def create
     user = User.create!(user_params)
     token = AuthenticateUser.new(user.email, user.password).call
-    response = { message: Message.account_created, token: token}
+    response = { message: Message.account_created, token: token }
     json_response(response, :created)
   end
 

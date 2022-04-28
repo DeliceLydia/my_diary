@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_secure_password
+  
   has_many :entries
 
   validates :firstname, presence: true, length: { minimum: 3, maximum: 20 }
